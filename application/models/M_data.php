@@ -15,6 +15,10 @@ class M_data extends CI_Model {
 		echo "Ini bornet 3 kuy";
 	}
 
+	function bornet5(){
+		echo "This is bornet 5";
+	}
+
 	function data_modal(){ 
 		$hasil=$this->db->query("SELECT * FROM t_mod order by mod_id desc");
 		return $hasil->result();
