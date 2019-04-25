@@ -9,7 +9,11 @@ class M_data extends CI_Model {
 	public function __construct()
     {
         parent::__construct();
-    }
+	}
+	
+	function beda(){
+		echo "hello";
+	}
 
 	function data_modal(){ 
 		$hasil=$this->db->query("SELECT * FROM t_mod order by mod_id desc");
