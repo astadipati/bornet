@@ -11,12 +11,8 @@ class M_data extends CI_Model {
         parent::__construct();
 	}
 	
-	function beda(){
-		echo "hello";
-	}
-
-	function tiga(){
-		
+	function bornet2(){
+		echo "Ini bornet 2";
 	}
 
 	function data_modal(){ 
