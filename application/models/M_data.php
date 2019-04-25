@@ -11,8 +11,8 @@ class M_data extends CI_Model {
         parent::__construct();
 	}
 	
-	function bornet2(){
-		echo "Ini bornet 2";
+	function bornet3(){
+		echo "Ini bornet 3 kuy";
 	}
 
 	function data_modal(){ 
