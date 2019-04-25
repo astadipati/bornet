@@ -15,6 +15,10 @@ class M_data extends CI_Model {
 		echo "hello";
 	}
 
+	function tiga(){
+		
+	}
+
 	function data_modal(){ 
 		$hasil=$this->db->query("SELECT * FROM t_mod order by mod_id desc");
 		return $hasil->result();
